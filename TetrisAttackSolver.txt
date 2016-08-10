@@ -1,0 +1,27 @@
+% Window is 6 wide by 12 tall
+#const blocks_tall = 12.
+#const blocks_wide = 6.
+#const num_blocks = blocks_tall*blocks_wide.
+
+block(1..num_blocks).
+
+% Number of moves that may be made
+#const num_moves = 5.
+
+
+% All the colors are as follows
+color(red).
+color(blue).
+color(green).
+color(purple).
+color(yellow).
+color(cyan).
+
+%% ----------------------------------------------------------------------
+%% TIMESTEPS
+%% ----------------------------------------------------------------------
+
+% step(0..n).
+
+% next(I, I1) :- step(I), step(I1), I1 = I+1.
+
